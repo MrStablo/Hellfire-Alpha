@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e53b070ba9a314fa12d9dfc709eb30, type: 3}
+  m_Name: G_Molatov
+  m_EditorClassIdentifier: 
+  Price: 0
+  Slot: 4
+  mesh: {fileID: -8803937527578110353, guid: c1860b430539df548af8503872cff834, type: 3}
+  material: {fileID: 2100000, guid: b8914d56d2c21c24e93273b0e1533b36, type: 2}
+  Mobility: 1
+  MagazineSize: 1
+  DrawTime: 0
+  ReloadTime: 1.5
+  Reloadmultiplier: 1
+  ReloadAnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ReloadTargetPosition: {x: 0.2, y: -1, z: 0.4}
+  ReloadTargetRotation: {x: 0, y: 0, z: 0}
+  shootMode: 5
+  TimeBetweenShots: 1
+  RecoilResetMultiplier: 1
+  HitScan: 0
+  CloseBodyDamage: 1
+  CloseHeadDamage: 1
+  MidBodyDamage: 1
+  MidHeadDamage: 1
+  LongBodyDamage: 1
+  LongHeadDamage: 1
+  BulletsPerShot: 1
+  Explosive: 1
+  IsProjectile: 1
+  ExplodeOnImpact: 1
+  FuseTime: 3
+  ShootForce: {x: -30, y: -10}
+  ProjectileObject: {fileID: 359315695093671031, guid: 2f8893342efc67148bf07f5b9065cbc1,
+    type: 3}
+  ExplosionObject: {fileID: 2752737450548420564, guid: 6030ae58e4b43fd4d9634cbf698f764d,
+    type: 3}
+  MidThreshold: 10
+  LongThreshold: 20
+  ShotsUntilRandom: 1
+  verticalRecoil:
+  - 0
+  ShotOffset:
+  - {x: 0, y: 0}
+  spread: 0

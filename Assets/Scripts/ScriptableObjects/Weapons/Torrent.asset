@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e53b070ba9a314fa12d9dfc709eb30, type: 3}
+  m_Name: Torrent
+  m_EditorClassIdentifier: 
+  Price: 1500
+  Slot: 1
+  mesh: {fileID: 6899345391315554915, guid: c51cc469ccc215845a45d6edd5359253, type: 3}
+  material: {fileID: 2100000, guid: ee033b4c0129fe640833902248a6916b, type: 2}
+  Mobility: 1
+  MagazineSize: 24
+  DrawTime: 0.8
+  ReloadTime: 1.6
+  Reloadmultiplier: 0.8
+  ReloadAnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -0.026124818
+      outSlope: -0.026124818
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.5416667
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2.8068643
+      outSlope: 2.8068643
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06490427
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 0
+    m_RotationOrder: 4
+  ReloadTargetPosition: {x: 0.2, y: -0.6, z: 0.4}
+  ReloadTargetRotation: {x: 0, y: -90, z: 0}
+  shootMode: 3
+  TimeBetweenShots: 0.12
+  RecoilResetMultiplier: 10
+  HitScan: 1
+  CloseBodyDamage: 65
+  CloseHeadDamage: 165
+  MidBodyDamage: 35
+  MidHeadDamage: 90
+  LongBodyDamage: 25
+  LongHeadDamage: 70
+  BulletsPerShot: 1
+  Explosive: 0
+  IsProjectile: 0
+  ExplodeOnImpact: 0
+  FuseTime: 0
+  ShootForce: {x: 0, y: 0}
+  ProjectileObject: {fileID: 0}
+  ExplosionObject: {fileID: 0}
+  MidThreshold: 0
+  LongThreshold: 0
+  ShotsUntilRandom: 24
+  verticalRecoil:
+  - 0
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  - 1
+  - 1.2
+  - 1.4
+  - 1.6
+  - 1.8
+  - 2
+  - 2.1
+  - 2.2
+  - 2.3
+  - 1.4
+  - 2.4
+  - 1.9
+  - 2.5
+  - 1.7
+  - 2.6
+  - 3
+  - 2.3
+  - 2.5
+  - 2.7
+  ShotOffset:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  spread: 0.014

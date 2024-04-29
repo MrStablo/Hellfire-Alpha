@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e53b070ba9a314fa12d9dfc709eb30, type: 3}
+  m_Name: Hellfire
+  m_EditorClassIdentifier: 
+  Price: 2050
+  Slot: 1
+  mesh: {fileID: 2528559592762066072, guid: 215aee40a9fa80e49bc6dd71c69ed497, type: 3}
+  material: {fileID: 2100000, guid: 1752e8808ef25aa42895551b0eeeb51a, type: 2}
+  Mobility: 1
+  MagazineSize: 25
+  DrawTime: 0.7
+  ReloadTime: 1.4
+  Reloadmultiplier: 1
+  ReloadAnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.53931236
+      value: 0.43054307
+      inSlope: 2.2161942
+      outSlope: 2.2161942
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.086510435
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.301084
+      outSlope: 0.301084
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.42508918
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ReloadTargetPosition: {x: 0.2, y: -0.8, z: 0.4}
+  ReloadTargetRotation: {x: 0, y: -90, z: 0}
+  shootMode: 3
+  TimeBetweenShots: 0.17
+  RecoilResetMultiplier: 10
+  HitScan: 1
+  CloseBodyDamage: 40
+  CloseHeadDamage: 160
+  MidBodyDamage: 35
+  MidHeadDamage: 150
+  LongBodyDamage: 35
+  LongHeadDamage: 150
+  BulletsPerShot: 1
+  Explosive: 0
+  IsProjectile: 0
+  ExplodeOnImpact: 0
+  FuseTime: 0
+  ShootForce: {x: -20, y: 0}
+  ProjectileObject: {fileID: 0}
+  ExplosionObject: {fileID: 0}
+  MidThreshold: 30
+  LongThreshold: 60
+  ShotsUntilRandom: 25
+  verticalRecoil:
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.9
+  - 1.2
+  - 1.5
+  - 1.9
+  - 2.3
+  - 2.5
+  - 2.6
+  - 2.5
+  - 2.4
+  - 2.4
+  - 2.6
+  - 2.4
+  - 2.5
+  - 2.6
+  - 2.7
+  - 2.8
+  - 2.6
+  - 2.5
+  - 2.6
+  - 2.5
+  - 2.5
+  - 2.6
+  ShotOffset:
+  - {x: 0, y: 0}
+  - {x: 0.12, y: 0.06}
+  - {x: 0.21, y: 0.3}
+  - {x: 0.51, y: 0.48}
+  - {x: 0.81, y: 0.66}
+  - {x: 1.2, y: 0.94}
+  - {x: 0.75, y: 1.02}
+  - {x: 0.28, y: 1.35}
+  - {x: -0.41, y: 1.32}
+  - {x: -0.78, y: 1.35}
+  - {x: -1.3, y: 1.47}
+  - {x: -0.2, y: 1.53}
+  - {x: 0.87, y: 1.35}
+  - {x: 1.38, y: 1.59}
+  - {x: 1.98, y: 1.65}
+  - {x: 1.13, y: 1.53}
+  - {x: 0.44, y: 1.53}
+  - {x: -0.51, y: 1.71}
+  - {x: 0.3, y: 1.95}
+  - {x: -0.39, y: 2.08}
+  - {x: -0.69, y: 2.07}
+  - {x: -1.41, y: 1.89}
+  - {x: -0.69, y: 2.16}
+  - {x: 0.45, y: 2.24}
+  - {x: 1.29, y: 2.08}
+  spread: 0.007
